@@ -42,7 +42,7 @@ TEST_F(NginxStringConfigTest, SimplerConfig) {
 	EXPECT_TRUE(ParseString("foo;"));
 }
 
-TEST_F(NginxStringConfigTest, SimplerConfig2) {
+TEST_F(NginxStringConfigTest, EmptyNestedConfig) {
 	EXPECT_TRUE(ParseString("boo far; foo {}"));
 }
 
